@@ -19,11 +19,11 @@ int  main () {
     //mengisi data
     cout << "mengisi data" << endl;
     cout << "nama : " ;
-    cin >> mhs.nama;
+    getline(cin,mhs.nama);
     cout << "desa : " ;
-    cin >> mhs.alamat.desa;
+    getline(cin,mhs.alamat.desa);
     cout << "kota : " ;
-    cin >> mhs.alamat.kota;
+    getline(cin,mhs.alamat.kota);
     cout << "umur : " ;
     cin >> mhs.umur;
     cout << endl;
