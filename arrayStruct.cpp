@@ -15,22 +15,23 @@ struct Orang
 };
 
 int  main () {
-    Orang mhs;
+    Orang mhs[3];
+    for (int i = 0;i <=2; i++)
     //mengisi data
     cout << "mengisi data" << endl;
     cout << "nama : " ;
-    getline(cin,mhs.nama);
+    getline(cin,mhs[i].nama);
     cout << "desa : " ;
-    getline(cin,mhs.alamat.desa);
+    getline(cin,mhs[i].alamat.desa);
     cout << "kota : " ;
-    getline(cin,mhs.alamat.kota);
+    getline(cin,mhs[i].alamat.kota);
     cout << "umur : " ;
-    cin >> mhs.umur;
+    cin >> mhs[i].umur;
     cout << endl;
     // tampilkan
     cout << "Menampilkan Data" << endl;
-    cout << "Nama : " << mhs.nama << endl;
-    cout << "Alamat : " << mhs.alamat.desa << endl;
-    cout << "Alamat : " << mhs.alamat.kota << endl;
-    cout << "Umur : " << mhs.umur << endl;
+    cout << "Nama : " << mhs[i].nama << endl;
+    cout << "Alamat : " << mhs[i].alamat.desa << endl;
+    cout << "Alamat : " << mhs[i].alamat.kota << endl;
+    cout << "Umur : " << mhs[i].umur << endl;
 }
