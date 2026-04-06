@@ -31,3 +31,16 @@ int main() {
       cout << "data keempat = " << kamu [3] << endl;
       cout << "data kelima = " << kamu[4] << endl;
       cout << endl;
+      // mengisi dengan mengunakan perulangan for
+      for (int i = 0; i <= 4; i++)
+      {
+        cout << "Data index ke-" << i << " = ";
+        cin >> kamu [i];
+      }
+    cout << endl;
+     //menampilkan dengan mengunakan perulangan for
+     for (int i = 0; i <= 4; i++)
+     {
+        cout << " data ke-" << i+1 << " = " << kamu [i] << endl;
+     }
+    }
